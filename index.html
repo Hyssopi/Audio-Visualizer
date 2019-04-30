@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <script src="lib/chroma.js"></script>
+  <link href="styles/iconfont/material-icons.css" rel="stylesheet"/>
+  <link href="styles/styles.css" rel="stylesheet"/>
+  
+  <head>
+    <meta charset="UTF-8">
+    <title>Audio Visualizer</title>
+  </head>
+  
+  <body>
+    <div style="display: flex; flex-direction: column;">
+      <canvas id="waveformCanvasId"></canvas>
+      <div style="padding: 5px 0px;"></div>
+      <canvas id="spectrumCanvasId"></canvas>
+      <canvas id="spectrogramCanvasId"></canvas>
+      <canvas id="frequencyLabelCanvasId"></canvas>
+      
+      <div style="display: flex; flex-direction: row; align-items: center;">
+        <button id="shuffleCheckboxId" class="material-icons" title="LIST / SHUFFLE">repeat</button>
+        <button id="stopButtonId" class="material-icons" title="STOP">stop</button>
+        <button id="nextButtonId" class="material-icons" title="NEXT">skip_next</button>
+        <select id="titleSelectMenuId" style="padding: 10px; margin: 0px 0px 0px 5px;">
+        </select>
+        <div style="margin-left: auto; border: 1px solid black; padding: 10px 15px;">
+          <span id="currentPlayingTimeTextId">-</span> &nbsp;&nbsp;/&nbsp;&nbsp; <span id="durationPlayingTimeTextId">-</span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/main.js" type="module"></script>
+</html>
