@@ -3,7 +3,10 @@ Display audio waveform (time domain), spectrum (frequency domain), and spectrogr
 
 ![splash](images/splash.png)
 
-## GitHub Pages
+## Working Demo
+https://www.youtube.com/watch?v=ST-CnxQPODs
+
+## Try It Out
 https://hyssopi.github.io/Audio-Visualizer/
 
 ## Prerequisites
